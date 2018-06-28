@@ -1,11 +1,7 @@
 {
   "name": "users",
   "version": "1.0.0",
-  "description": "Starter pack for an auth-included graphql project",
-  "repository": {
-    "type": "git",
-    "url": "github.com/stephengrider"
-  },
+  "description": "Auth-included graphql project",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js --ignore client"
