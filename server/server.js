@@ -9,7 +9,7 @@ const MongoStore = require('connect-mongo')(session);
 const schema = require('./schema/schema');
 
 const app = express();
-const MONGO_URI = mongodb://Phanindra16:mahiroger3@ds121861.mlab.com:21861/auth;
+const MONGO_URI = 'mongodb://Phanindra16:mahiroger3@ds121861.mlab.com:21861/auth';
 
 mongoose.Promise = global.Promise;
 
